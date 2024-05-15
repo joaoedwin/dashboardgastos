@@ -12,10 +12,6 @@ gastos_2024_uberlandia = [3343.04, 1475.47, 0]  # Não há informações sobre o
 # Inicialização do aplicativo Dash
 app = dash.Dash(__name__)
 
-# Estilo externo
-external_stylesheets = ['/assets/styles.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
 # Layout do aplicativo
 app.layout = html.Div([
     html.H1('Dashboard de Gastos', className='text-center text-2xl font-bold mb-4'),
