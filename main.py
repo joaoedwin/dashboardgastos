@@ -63,4 +63,4 @@ def update_graph(n_clicks_2023_setor2, n_clicks_2024_setor2, n_clicks_2024_uberl
     return fig
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', port=8050)
