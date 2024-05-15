@@ -10,7 +10,7 @@ gastos_2024_setor2 = [5993.48, 4008.49, 48.39]
 gastos_2024_uberlandia = [3343.04, 1475.47, 0]  # Não há informações sobre os juros e multas
 
 # Inicialização do aplicativo Dash
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, external_stylesheets=[])
 
 # Layout do aplicativo
 app.layout = html.Div([
